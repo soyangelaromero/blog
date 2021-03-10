@@ -14,35 +14,6 @@
     color: rgb(0, 0, 0);
     padding: 10px;
 }
-@media screen and (max-width:800px) {
-    .nav {
-    width:30%;
-    height: 50%;
-    left: -50%;
-    margin: 0;
-    position: fixed;
-    }
-    .nav ul li{
-    display: block;
-    float: none;
-    }
-    .nav ul li a{
-    color: rgb(0, 0, 0);
-    padding: 1px;
-    h1 {
-        background-color: white;
-        text-align: center;
-        justify-content: center;
-        height: 1px;
-        margin-top: 1px;
-        padding: 1px;
-    }
-    .home{
-        background: url("./Fachada.jpg");
-        background-size: cover;
-        height: 10vh;
-        }
-}
 h1 {
     background-color: white;
     text-align: center;
