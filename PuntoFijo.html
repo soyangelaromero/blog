@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+	<title> - Método del Punto Fijo - </title>
+    <link rel="stylesheet" href="./CSS/PuntoFijo.css">
+    </head>
+    <header>
+        <div class="home">
+            <div class="nav">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./Biseccion.html">Método de Bisección</a></li>
+                        <li><a href="./PuntoFijo.html">Punto Fijo</a></li>
+                        <li><a href="./NewtonRaphson.html">Newton-Raphson</a></li>
+                        <li><a href="./Euler.html">Euler</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="music2">
+            <audio src="./music/PuntoFijo.mp3" autoplay loop volume="50">
+        </div>
+        <h1>¿Qué es el Método del Punto Fijo?</h1>
+        <div class="grafica2">
+                <img src="./img/grafica2.png" width="300" height="300">
+            </div>
+        <div class="pf-content">
+                <h2>Definicion</h2>
+                <p>Es un método iterativo que permite resolver sistemas de ecuaciones<br>
+                 no necesariamente lineales. se basa en un esquema iterativo obtenido<br>
+                 a partir de un reordenamiento de la función f(x).<br>
+               </p>
+                <h2>Pasos</h2>
+                <p>1. Se ubica la raíz de f(x) analizando la gráfica.<br>
+                    2. Se obtiene un despeje x = g(x) de la función.<br>
+                    3. Obtenemos de x = g(x) su derivada g´(x).<br>
+                    4. Resolviendo la desigualdad -1 ≤ g´(x).≤ 1 obtenemos el rango de <br>
+                    valores en los cuales esta el punto fijo llamado R.<br>
+                    5. Con R buscamos la raíz en g(x), es decir g(R) = R haciendo <br>
+                    iteración de las operaciones.<br>
+                </p>
+            </div><br>
+        <div class="ejer2">
+        <p>Ejercicios Resueltos</p>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/M%C3%A9todo_del_punto_fijo">Wikipedia</a></li>
+                <li><a href="https://tecdigital.tec.ac.cr/revistamatematica/HERRAmInternet/ecuaexecl/node6.html">TecDigital</a></li>
+                <li><a href="https://sites.google.com/site/driverssystem/2-2-metodo-del-punto-fijo">Google Sites</a></li>
+                <li><a href="https://www.monografias.com/trabajos43/metodo-punto-fijo/metodo-punto-fijo2.shtml">Monografías</a></li>
+                <li><a href="http://blog.espol.edu.ec/analisisnumerico/2-4-1-punto-fijo-ejemplo01/">ESPOL</a></li>
+            </ul>
+        </div><br>
+        <div class="video2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yZGUG2yfSDI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="slideshare2">
+        <p>SlideShares</p>
+            <ul>
+                <li><a href="https://es.slideshare.net/KikePrieto1/mtodo-del-punto-fijo">Ejemplo 1</a></li>
+                <li><a href="https://es.slideshare.net/giovanihernandez5209/iteracion-de-punto-fijo">Ejemplo 2</a></li>
+                <li><a href="https://es.slideshare.net/rjvillon/5metodo-del-punto-fijo">Ejemplo 3</a></li>
+            </ul>
+        </div>
+        <div class="pf-content2">
+            <h2>Ventajas: </h2>
+                <p>• Converge con rapidez.<br>
+                • Cuando converge, es de mucha precisión.<br>
+                • No necesita de un intervalo para funcionar sino de<br>
+                únicamente un punto perteneciente al intervalo donde<br>
+                esté la raíz.<br>
+                </p>
+            <h2>Desventajas: </h2>
+                <p>• No garantiza la convergencia.<br>
+                • La función g(x) correcta puede ser muy compleja de<br>
+                encontrar.<br>
+                • Hay infinidad de g(x) y no existe regla para escoger<br>
+                la correcta.<br>
+                </p>
+            <h2>Importancia y Usos</h2>
+                <p>Se desarrolla para aplicaciones contractivas definidas<br>
+                en  un  espacio  métrico  completo  en  el  mismo;  por<br>
+                esto también  se  le  llama  teorema  de la aplicación<br>
+                contractante<br>
+                </p>
+                <p>Es importante  porque  proporciona  una  técnica  que<br>
+                permite la prueba de  varios teoremas de existencia  y <br>
+                unicidad  en diferentes ramas del  análisis, así como <br>
+                en  otras  áreas de la matemática. El teorema además,<br>
+                nos proporciona una forma explícita  de  construir  la <br>
+                solución aproximada mediante un proceso iterativo,<br>
+                que converge hacia la solución  exacta. <br>
+                </p>
+        </div>
+        <div class="footer">
+            <p>• MathHolics© 2021 • Diseñado por: Angela M Romero E • UNIMAR • </p>
+        </div>
+    </body>
+</html>

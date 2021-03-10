@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+	<title> - Método de Euler - </title>
+    <link rel="stylesheet" href="./CSS/Euler.css">
+    </head>
+    <header>
+        <div class="home">
+            <div class="nav">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./Biseccion.html">Método de Bisección</a></li>
+                        <li><a href="./PuntoFijo.html">Punto Fijo</a></li>
+                        <li><a href="./NewtonRaphson.html">Newton-Raphson</a></li>
+                        <li><a href="./Euler.html">Euler</a></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="music4">
+            <audio src="./music/Euler.mp3" autoplay loop volume="70">
+        </div>
+        <h1>¿Qué es el Método de Euler?</h1>
+        <div class="grafica4">
+                <img src="./img/grafica4.png" width="300" height="300">
+            </div>
+        <div class="e-content">
+                <h2>Definicion</h2>
+                <p>Es un procedimiento de integración numérica para resolver<br>
+                ecuaciones diferenciales ordinarias (EDO) a partir de un valor<br>
+                inicial dado. El método de Euler es el más simple de los métodos<br>
+                numéricos para resolver un problema de valor inicial.<br>
+                </p>
+                <h2>Pasos</h2>
+                <p>1. Se multiplican los intervalos que van de “X” a “x.” en “n” <br>
+                    cantidad de sub- intervalos con ancho “h”; es decir: h=x1-x0/n<br>
+                    2. Con esto se obtine un conjunto discreto de “n+1” puntos. <br>
+                    Para los que se debe cumplir lo siguiente: <br>
+                    𝑥𝑖 = 𝑥0 + ih.0 ≤ i ≤ ℎ = 𝑋1 − 𝑋0 𝑛 <br>
+                    3. Ya con la condición inicial y x0= y0 que representa el punto <br>
+                    P0 =(x0,y0) y por donde pasa la curva obtenemos la solución <br>
+                    de la ecuación del planteamiento inicial: F(x) =y <br>
+                    4. Con el punto “P0” se puede evaluar la primera derivada de<br>
+                    F(x) en ese punto; por lo tanto: <br>
+                    F’(x)= 𝑑𝑦 𝑑𝑥 = f(X0, Y0)<br>
+                    5. Con esta información se traza una recta, aquella que pasa por “Po”<br>
+                    y de pendiente “F(xo, yo)”. Esta recta aproxima “F(x) en una <br>
+                    vecinidad de “x1”.<br>
+                    6. Se toma la recta como reemplazo de F(x) y se <br>
+                    localiza en ella el valor de y correspondiente a x1. <br>
+                    7. Entonces, se puede deducir segun esta información para la grafica<br>
+                    que: 𝑦1−𝑦𝑜 𝑥1−𝑥𝑜 = f(xo,yo) 1 2 3 4 5 6 7 <br>
+                </p>
+        </div><br>
+        <div class="ejer4">
+        <p>Ejercicios Resueltos</p>
+            <ul>
+                <li><a href="https://www.lifeder.com/metodo-de-euler/">Lifeder</a></li>
+                <li><a href="https://es.khanacademy.org/math/ap-calculus-bc/bc-differential-equations-new/bc-7-5/v/example-eulers-method-exercise">Khan Academy</a></li>
+                <li><a href="https://es.scribd.com/document/352915166/Ejercicios-Resueltos-Por-El-Metodo-de-Euler">Scribd</a></li>
+                <li><a href="https://analisisnumerico4.wordpress.com/2017/06/01/ejemplos-metodo-euler/">Wordpress</a></li>
+                <li><a href="https://idoc.pub/documents/ejercicios-resueltos-por-el-metodo-de-euler-wl1p67gev5lj">IdocPub</a></li>
+           </ul>
+        </div><br>
+        <div class="video4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F-dxL9Dnxc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
+        <div class="slideshare4">
+        <p>SlideShares</p>
+            <ul>
+                <li><a href="https://es.slideshare.net/MarcoAntonioRodrguez11/euler-y-runge-kutta">Ejemplo 1</a></li>
+                <li><a href="https://es.slideshare.net/lgalaviz/metodo-de-euler-55120271">Ejemplo 2</a></li>
+                <li><a href="https://es.slideshare.net/samuelbelmar1/metodo-de-euler-56433584">Ejemplo 3</a></li>
+            </ul>
+        </div>
+        <div class="e-content2">
+            <h2>Ventajas: </h2>
+                <p>• Mientras mas se divide el tamaño del paso de h, los errores disminuyen<br>
+                • Es un método muy sencillo de implementar pero de orden bajo por lo que <br>
+                dependiendo del grado de precisión que deseas el h puede ser muy pequeña <br>
+                • Una forma de mejorar el método es utilizar una mejor aproximación a la <br>
+                integral.<br>
+                </p>
+            <h2>Desventajas: </h2>
+                <p>• • Tiene errores cuando la pendiente instantanea cambia rapidamente<br>
+                    dentro de la x. <br>
+                    • Para mejores aproximaciones no solo se debe considerar<br>
+                     el punto inicial, sino un promedio del inicial y el final, el problema <br>
+                     es que no se conoce el valor de y en ese punto final.<br>
+                </p>
+            <h2>Importancia y Usos</h2>
+                <p>El uso de este método viene dado si la interpretación de la ecuación no se <br>
+                    puede dar de forma analitica Es el método mas sencillo para la resolución <br>
+                    de ecuaciones diferenciales Con el uso del Método de Euler se supone que <br>
+                    se verifica la hipotesis del Teorema de Picard. El análisis de los métodos<br>
+                    numéricos nos permite realizar estimaciones tanto de la eficiencia o <br>
+                    complejidad de los algoritmos asociados, así como de la confiabilidad de <br>
+                    los resultados numéricos obtenidos durante su aplicación.<br>
+                    <br>
+                </p>
+        </div>
+        <div class="footer">
+            <p>• MathHolics© 2021 • Diseñado por: Angela M Romero E • UNIMAR • </p>
+        </div>
+    </body>
+</html>

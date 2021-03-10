@@ -1,0 +1,28 @@
+.nav{
+    height: 50px;
+    background: #66d7d1;
+    font-size: large;
+}
+.nav ul{
+    position: absolute;
+    right: 350px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+h1 {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 180px;
+}
+.home{
+    background: url("./Fachada.jpg");
+    background-size: cover;
+    height: 100vh;
+}

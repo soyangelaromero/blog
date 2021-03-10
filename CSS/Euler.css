@@ -1,0 +1,145 @@
+html {
+    height:100%;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+/*Barra de Navegacion*/ 
+
+.nav{
+    height: 50px;
+    background: #66d7d1;
+    font-size: large;
+}
+.nav ul{
+    position: absolute;
+    right: 300px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+}
+
+
+/*Color de Fondo*/ 
+
+body {
+    color: #eaf2e3;
+    height: 100%;
+}
+/*Grafica*/ 
+
+.grafica4{
+    float: left;
+    margin-left: 1em auto;
+    padding-left: 100px;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-right: 10px;
+    position: relative;
+}
+/*Introduccion*/ 
+
+.e-content{
+    float:left;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px auto 0 auto;
+    padding-right: 20px;
+    position: relative;
+    background: #1dd3b0;
+}
+h1,h2 {
+    text-align: center;
+    justify-content: center;
+}
+/*Ejercicios*/ 
+
+.ejer4 {
+    float:left;
+    margin-left: 40px;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-right: 40px auto 0 auto;
+    margin-bottom: 0px;
+    padding-right: 30px;
+    position: left;
+    background: #66d7d1;
+}
+.ejer4 ul {
+    background: #eaf2e3;
+    padding: 60px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    font-size: large;
+}
+.ejer4 p {
+    text-align: center;
+}
+/*Video*/ 
+
+.video4 {
+    float:left;
+    margin-left: 40px auto 0 auto;
+    padding-left: 65px;
+    margin-top: 50px;
+    margin-right: 40px auto 0 auto;
+    padding-right: 30px;
+    position: relative;
+}
+/*Conclusion*/ 
+
+.e-content2{
+    float:left;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-right: 20px;
+    position: relative;
+    background: #1dd3b0;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+/*SlideShares*/ 
+
+.slideshare4 {
+    float:left;
+    margin-left: 40px;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-right: 40px auto 0 auto;
+    margin-bottom: 0px;
+    padding-right: 30px;
+    background: #66d7d1;
+    width: 210px;
+}
+.slideshare4 ul {
+    background: #eaf2e3;
+    padding: 60px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    font-size: large;
+    text-align: center;
+}
+.slideshare3 p {
+    text-align: center;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #66d7d1;
+    padding: 1em;
+    position: bottom;
+    margin-top: 155%;
+}
+.footer p{
+    text-align: center;
+}
