@@ -25,7 +25,19 @@
     .nav ul li{
     display: block;
     float: none;
-}
+    }
+    h1 {
+        background-color: white;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+        margin-top: 180px;
+    }
+    .home{
+        background: url("./Fachada.jpg");
+        background-size: cover;
+        height: 100vh;
+        }
 }
 h1 {
     background-color: white;
