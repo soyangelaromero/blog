@@ -29,4 +29,5 @@ h1 {
 .center {
     margin-top: 200px;
     margin-left: 350px;
+    position: right;
 }
