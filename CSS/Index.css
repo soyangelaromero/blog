@@ -16,9 +16,9 @@
 }
 @media screen and (max-width:800px) {
     .nav {
-    width:80%;
-    height: 100%;
-    left: -100%;
+    width:30%;
+    height: 50%;
+    left: -50%;
     margin: 0;
     position: fixed;
     }
@@ -35,6 +35,7 @@
         justify-content: center;
         height: 1px;
         margin-top: 1px;
+        padding: 1px;
     }
     .home{
         background: url("./Fachada.jpg");
